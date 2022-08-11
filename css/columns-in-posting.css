@@ -1,0 +1,40 @@
+.naslov{
+    height: 50px;
+    text-align: center;
+}
+.opisi{
+    height: 150px;
+    
+}
+.opisi input {
+    display: none;
+    background-color: #D9D9D9;
+}
+
+.opisi .opis {
+    display: none;
+    background-color: #D9D9D9;
+}
+
+.opisi input:checked+.opis {
+    display: block;
+    background-color: #FFFFFF;
+    padding: 20px 60px;
+    text-align: left;
+}
+
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  
+  .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/coffeehouse.jpg");
+    min-height: 75%;
+  }
+  
+  .menu {
+    display: none;
+  }

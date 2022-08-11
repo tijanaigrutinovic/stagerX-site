@@ -1,0 +1,44 @@
+.containe{
+
+    width: 420px;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #F0F1F2;
+  }
+  input[type="text"] {
+      height: 40px;
+      width: 220px;
+      padding-right: 5px;
+      padding-left: 5px;
+      font-size: 14px;
+      border: 0px solid transparent;
+      background-color: transparent;
+      color: black;
+  }
+  
+  input[type="image"]{
+    padding-left: 20px;
+  }
+
+  input[type="submit"] {
+      height: 40px;
+      cursor: pointer;
+      background: #4475F2;
+      color: white;
+      border: 0;
+      font-size: 20px;
+      padding-right: 30px;
+      padding-left: 30px;
+      -webkit-appearance: none;
+      border-radius: 25px;
+      transition: background-color 0.5s ease;
+  }
+  input[type="submit"]:hover {
+    background-color: #7DAEDE;
+  }
+  textarea:focus, input:focus{
+      outline: none;
+  }
+  
+  

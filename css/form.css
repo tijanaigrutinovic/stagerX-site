@@ -1,0 +1,53 @@
+.form input[type=text], select{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #E2E1E5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+  }
+  
+.form input[type=submit] {
+    width: 40%;
+    background-color: #426CB4;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .form input[type=date]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #E2E1E5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+  }
+.form input[type=submit]:hover {
+    opacity: 0.7;
+  }
+
+.form textarea{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #E2E1E5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+
+}
+
+.rows{
+    display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
