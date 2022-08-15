@@ -210,6 +210,9 @@ iframe {
 .container {
 	max-width: 1200px;
 }
+.stage-container {
+	max-width: 1500px;
+}
 
 .slick-slide {
   outline: none !important;
@@ -996,7 +999,15 @@ input[type="date" i] {
   -o-transform: scale(1.1);
 	transform: scale(1.1);
 }
-
+.btn-blue1 {
+  width: 200px;
+  height: 60px;
+  left: 610px;
+  top: 345px;
+  background: #426CB4;
+  border-radius: 20px;
+  color: white;
+}
 .btn1 {
   background: white;
   border-radius: 10px;

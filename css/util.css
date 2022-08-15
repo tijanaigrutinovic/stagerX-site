@@ -3572,6 +3572,11 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	max-width: 190px;
 }
 
+.size39 {
+	min-height: 200px;
+	max-height: 200px;
+	max-width: 500px;
+}
 /*[ Background Color ]
 -----------------------------------------------------------
 */
@@ -3610,6 +3615,8 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .bo-rad-5 {border-radius: 5px;} 
 .bo-rad-7 {border-radius: 7px;} 
 .bo-rad-10 {border-radius: 10px;} 
+.bo-rad-15 {border-radius: 15px;} 
+
 
 .bo-t-rad-2 {
 	border-top-left-radius: 2px;
